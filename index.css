@@ -1,0 +1,16 @@
+table {
+    width: 70%;
+    border: 1px solid #222;
+    border-collapse: collapse;
+    /* 중복되는 표와 셀의 테두리를 한 줄로 표시 */
+}
+
+thead {
+    background: #eee;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 0.8em;
+}
