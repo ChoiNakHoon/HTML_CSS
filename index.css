@@ -32,6 +32,22 @@ li, p {
     top: 100px;
 }
 
+#sns > ul {
+    padding-left: 0;
+    /* 목록 들여쓰지 않기 */
+}
+
+#sns > ul > li {
+    display: inline-block;  /* 항목을 가로로 배열 */
+    width: 80px; /* 각 항목의 너비 */
+}
+
+#sns>ul>li>a img{
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 -10px;
+}
+
 table {
     width: 70%;
     border: 1px solid #222;
@@ -47,6 +63,12 @@ th, td {
     border: 1px solid #ccc;
     padding: 5px;
     font-size: 0.8em;
+}
+
+a, a:visited {
+    color: #222;
+    text-decoration: none;
+    /* 밑줄 없앰 */
 }
 
 .pf {
